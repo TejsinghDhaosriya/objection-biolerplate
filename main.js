@@ -32,8 +32,10 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 // Import API Routes.
 const userRoutes = require("./src/routes/index");
+const userAuth = require("./src/routes/index")
 // Add routes as middleware.
 app.use("/api",userRoutes);
+app.use("/api/auth",userAuth)
 
 
 // Port for Server
