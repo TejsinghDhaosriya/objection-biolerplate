@@ -1,0 +1,30 @@
+{
+  "name": "objection-boilerplate",
+  "version": "2.0.0",
+  "description": "Objection.js Boilerplate",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "objection",
+    "knex",
+    "nodejs",
+    "mysql",
+    "orm",
+    "database",
+    "api"
+  ],
+  "author": "Tejsingh Dhaosriya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.5",
+    "morgan": "^1.10.0",
+    "mssql": "^6.2.1",
+    "objection": "^2.2.3",
+    "parse-error": "^0.2.0"
+  }
+}
