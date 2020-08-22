@@ -4,7 +4,7 @@ module.exports = {
 
     // For development on your local machine.
     development: {
-      client: 'mssql',
+      client: 'mysql',
       useNullAsDefault: true,
       migrations: {
         directory: './src/migrations'     // Directory to migration files of the project.
