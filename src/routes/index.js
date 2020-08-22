@@ -16,6 +16,7 @@ router.delete("/post/:id",PostController.RemovePost);
 //API Routes For Authentication
 
 router.post("/register",AuthController.Register)
+router.post("/login",AuthController.Login)
 
 
 // export router;
