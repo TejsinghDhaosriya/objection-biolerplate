@@ -2,6 +2,8 @@
 Objection.js - Biolerplate  V 2.0
 
 ### Boilerplate for Objection.js using knex and MYSQL
+It contains curd operation for a post ;
+Also contains Register and Login for a user
 
 ## Getting Started
 Before procceding further we must have following things installed and setuped
