@@ -6,9 +6,9 @@ Objection.js - Biolerplate  V 2.0
 ## Getting Started
 Before procceding further we must have following things installed and setuped
   * Install Nodejs >= 12.x - [Nodejs](https://nodejs.org/en/download/)
-  * Install Postgres >= 10.13 - [Postgres](https://www.postgresql.org/)
   * Install Git - [Git](https://git-scm.com/)
   * Install Mysql
+  
 ## Prerequisites
 #### These boilerplate uses following technologies or frameworks.
    * Nodejs/Express
