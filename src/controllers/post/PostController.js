@@ -7,9 +7,8 @@ const Post = require("../../models/postModel");
 // res : HTTP Response Object
 const AddPost = async (req,res)=>{
 let data  = req.body;
-    if(!data.fullName) return badRequestError(res,"Enter FullName");
-    if(!data.dob) return badRequestError(res,"Enter Date of birth");
-
+     console.log(data)
+    
     let post_added = await Post.query().skipUndefined().insert(data).returning("*");
     if(!post_added) return badRequestError(res,"Post not added");
 

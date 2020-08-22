@@ -6,9 +6,9 @@ const PostController = require("../controllers/index").PostController;
 
 // API Routes for Post
 
-router.post("/post",PostController.AddPost);
-router.get("/post/:fullName",PostController.GetPost);
-router.get("/posts",PostController.GetPosts);
+router.post("/addpost",PostController.AddPost);
+router.get("/getpost/:postName",PostController.GetPost);
+router.get("/getposts",PostController.GetPosts);
 router.put("/post/:id",PostController.UpdatePost);
 router.delete("/post/:id",PostController.RemovePost);
 
