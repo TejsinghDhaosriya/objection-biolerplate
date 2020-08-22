@@ -36,21 +36,11 @@ const userRoutes = require("./src/routes/index");
 app.use("/api",userRoutes);
 
 
-
-// app.use('/', (req, res) => {
-//   res.statusCode = 404; //send the appropriate status code
-//   res.json({
-//     status: false,
-//     message: 'Sorry, API does not exist!',
-//     data: {},
-//     code: 404
-//   });
-// });
 // Port for Server
-const port = process.env.PORT || 8000;
+const port =3000;
 
 // Express Server 
-const server = app.listen(port, () => {
+app.listen(port, () => {
     console.log('Server listening at port %s', port);
   });
   
