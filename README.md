@@ -39,6 +39,6 @@ npm update
 ```
 5. Now you can start the development server
 ```
-node app.js
+node main.js
 ```
 
